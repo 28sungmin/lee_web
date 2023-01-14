@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&amp;display=swap" rel="stylesheet">
+  <title>양양 여행</title>
+  <style>
+    * {
+      font-family: 'Noto Sans KR', sans-serif;
+      list-style: none;
+      border-collapse: collapse;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body {
+      margin: 0px;
+    }
+
+    .place {
+      list-style-type: none;
+      text-decoration: none;
+      margin: 0;
+      padding-top: 100px;
+      width: 20%;
+      background-color: lightgray;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    li {
+      margin-top: 30px;
+    }
+
+    li a {
+      display: block;
+      padding: 8px 16px;
+      /* top과 bottom이 8px, left와 right가 16px */
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+      color: black;
+    }
+
+    li a:hover {
+      background-color: gray;
+    }
+
+    /* icon */
+    .icon {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .wrap {
+      margin-left: 20%;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 35px;
+      animation-name: travel;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+
+    /* 애니메이션 효과 */
+    @keyframes travel {
+      0% {
+        color: blue;
+      }
+
+      30% {
+        color: green;
+      }
+
+      100% {
+        color: red;
+      }
+    }
+
+    .sub {
+      margin-top: 70px;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="place">
+    <li>
+      <p class="icon"><img src="img/page.png" style="vertical-align:middle"><strong>목차</strong></p>
+    </li>
+    <li><a href="index.html"><strong>HOME</strong></a></li>
+    <li><a href="jeonju.html"><strong>2022</strong></a></li>
+    <li><a href="yangyang.html"><strong>양양</strong></a></li>
+  </ul>
+
+  <div class="wrap" style="text-align:center">
+    <h1>2023년도 여행</h1>
+    <br>
+    <hr>
+    <br>
+    <h3>양양 여행</h3>
+    <div class="sub">
+      <p style="font-size:25px"><strong>양양 1~2일차</strong></p>
+      <br>
+      <a href="https://youtu.be/-T4T1BJerqw" style="font-size:21px">Day 1~2 영상</a>
+    </div>
+  </div>
+</body>
+
+</html>
